@@ -1,0 +1,313 @@
+/* 
+Nisarg Khyali Anishkumar  
+8910019
+Assginment 2
+*/
+html {
+    font: normal normal normal 1rem Verdana;
+}
+
+body {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0px auto;
+    font: normal normal normal 18px Verdana;
+    padding: 1.125rem;
+    background-color: bisque;
+}
+
+p {
+    display: inline;
+}
+
+header {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2rem;
+    background-image: linear-gradient(to left, rgb(162, 0, 255), rgb(255, 242, 0));
+}
+
+#img1 {
+    height: auto;
+    width: 50%;
+    float: left;
+    clip-path: circle(32.51% at 272px 157px);
+    shape-outside: circle(162px at 271px 160px);
+    shape-margin: 5px;
+
+
+}
+
+aside {
+    width: 100%;
+    flex: 1 1;
+    height: auto;
+    padding: 1rem;
+    text-decoration: solid;
+    margin: 1rem 0;
+    background: url(../Images/LM7.jpg);
+    background-position: top;
+    background-repeat: repeat-y;
+}
+
+aside ul {
+    color: brown;
+}
+
+aside h2 {
+    font-size: medium;
+    color: rgb(243, 104, 104);
+}
+
+aside a {
+    color: yellow;
+}
+
+aside a:hover {
+    border-radius: 2px;
+    color: crimson;
+}
+
+q {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+main {
+    width: 40%;
+    padding: 0.625rem;
+    height: auto;
+}
+
+nav {
+    padding: 0px 31.25rem;
+
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+}
+
+nav ul li ul.dropdown {
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+
+nav ul li ul.dropdown li {
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: rgb(5, 242, 222);
+    color: yellow;
+    border-radius: 20px;
+}
+
+nav ul li:hover ul.dropdown {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2.5px solid black;
+    padding: 0.625rem;
+}
+
+td,th {
+    padding: 0.5rem;
+}
+
+h1,h2 {
+    color: rgb(245, 8, 8);
+    size: 1rem;
+    font-variant: small-caps;
+}
+
+main {
+    width: 60vw;
+    flex: 3 2;
+    padding: 0.313rem;
+    box-sizing: border-box;
+    display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.body-grid-item {
+    margin: 0.625rem;
+    padding: 0.625rem;
+}
+
+.main-grid-item {
+    overflow: auto;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 1rem auto;
+}
+
+.ma {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 1rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#image1 {
+    clip-path: polygon(0px 0px, 56.38% 3px, 99.2% 40.86%, 100.3% 98.06%, 1.33% 98.23%);
+}
+
+#image2 {
+    clip-path: polygon(33px 1px, 69.79% -2px, 100.47% 38.06%, 80.29% 89.99%, 8.54% 90.74%);
+}
+
+#image3 {
+    clip-path: polygon(12px 129px, 50.76% -6px, 97.59% 38.06%, 98.44% 98.63%, 1.91% 97.94%);
+}
+
+#image4 {
+    clip-path: circle(40%);
+}
+
+#image5 {
+    clip-path: circle(40%);
+}
+
+#image6 {
+    clip-path: circle(40%);
+}
+
+#image7 {
+    clip-path: polygon(0px 0px, 99.32% 2px, 99.2% 40.86%, 100.3% 100.37%, 1.33% 98.23%);
+}
+
+#image8 {
+    clip-path: polygon(14px 5px, 74.83% 48px, 86.23% 48.06%, 100.3% 98.06%, 8.53% 64.22%);
+}
+
+#image9 {
+    clip-path: polygon(31px 107px, 56.38% 3px, 90.84% 40.57%, 97.99% 98.06%, 1.91% 93.91%);
+}
+
+.video {
+    width: 1000px;
+    height: 600px;
+}
+
+form {
+    padding: 0.25rem;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+input[type=text],
+input[type=email],
+input[type=submit],
+input[type=reset],
+select,
+option {
+    display: block;
+    width: 50%;
+    height: 1.5rem;
+}
+
+select,
+option,
+label,
+legend {
+    font-variant: small-caps;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+textarea {
+    display: block;
+    width: 50%;
+}
+
+fieldset {
+    border: navajowhite;
+}
+
+input[type=radio],
+input[type=checkbox] {
+    height: 15px;
+    width: 1rem;
+}
+
+footer {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 2rem;
+    font-weight: bold;
+    background-image: linear-gradient(to left, rgb(162, 0, 255), rgb(255, 242, 0));
+    clear: both;
+}
+
+@media (max-width:1200px) {
+    html {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .gallery {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    body {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    aside {
+        background: url(../Images/LM8.jpg);
+        background-position: center;
+    }
+}
+
+@media (max-width:600px) {
+    
+    aside {
+        background: url(../Images/LM9.jpg);
+        background-position: bottom;
+    }
+
+}

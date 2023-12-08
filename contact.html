@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/main.css">
+    <link rel="stylesheet" href="Css/normalize.css">
+    <title>Lionel Messi</title>
+</head>
+
+<body class="body-container">
+
+    <header>
+        <h1>Lionel Messi</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Index</a></li>
+            <li>
+                <a href="#">Media</a>
+                <ul class="dropdown">
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="video.html">Video</a></li>
+                </ul>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="ma">
+        <main class="body-grid-item">
+            <h2>
+                Contact Form:
+            </h2>
+            <section class="contact">
+                <form action="post">
+                    <label for="name">Enter you name: </label>
+                    <input type="text" name="name" id="name" required autofocus><br>
+
+                    <label for="email">Enter your email: </label>
+                    <input type="email" name="email" id="email" required> <br>
+
+                    <label for="password">Enter your password: </label>
+                    <input type="password" name="password" id="password"><br>
+
+                    <label for="address">Enter your address: </label>
+                    <textarea name="address" id="address" cols="20" rows="5"></textarea> <br>
+
+                    <fieldset>
+                        <legend>Select your Gender: </legend>
+                        <input type="radio" name="Gender" id="male" value="male">
+                        <label for="radio">male</label>
+                        <input type="radio" name="Gender" id="female">
+                        <label for="radio">female</label>
+                    </fieldset>
+
+                    <label for="date">select your birthdate</label>
+                    <input type="date" name="date" id="date"><br>
+
+                    <label for="nation">Which country your belong to?</label>
+                    <select name="nation" id="nation">
+                        <option value="0" selected>Select an option </option>
+                        <option value="1">India</option>
+                        <option value="2">Canada</option>
+                        <option value="3">USA</option>
+                        <option value="4">Australia</option>
+                        <option value="5">New Zealand</option>
+                    </select><br>
+                    
+                    <label for="color">Choose your favourite colour:</label>
+                    <input type="color" name="color" id="color"><br>
+
+                    <legend>Select your hobbies:</legend>
+                    <input type="checkbox" name="hobby" id="singing">
+                    <label for="checkbox">singing</label>
+                    <input type="checkbox" name="hobby" id="Sports">
+                    <label for="checkbox">Sports</label>
+                    <input type="checkbox" name="hobby" id="Dance">
+                    <label for="checkbox">Dance</label><br>
+
+                    <input type="submit" name="submit" id="submit">
+                    <input type="reset" name="reset" id="reset">
+                </form>
+            </section>
+        </main>
+        <aside>
+            <h2>
+                Additional Informartion
+            </h2>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Lionel_Messi" target="_blank">Lionel Andres Messi</a></li>
+                <li><a href="https://fbref.com/en/players/d70ce98e/Lionel-Messi" target="_blank">Stats of Lionel
+                        Messi</a></li>
+            </ul>
+        </aside>
+    </section>
+
+    <footer>
+        <p>&copy;Nisarg Khyali 2023</p>
+    </footer>
+</body>
+</html>
